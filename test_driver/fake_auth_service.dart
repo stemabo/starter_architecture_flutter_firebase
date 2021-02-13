@@ -228,8 +228,8 @@ class FakeAuthService implements FirebaseAuth {
   }
 
   @override
-  Future<ConfirmationResult> signInWithPhoneNumber(
-      String phoneNumber, RecaptchaVerifier verifier) {
+  Future<ConfirmationResult> signInWithPhoneNumber(String phoneNumber,
+      [RecaptchaVerifier verifier]) {
     // TODO: implement signInWithPhoneNumber
     throw UnimplementedError();
   }
